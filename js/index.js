@@ -85,7 +85,7 @@ else if(hacker1.length < hacker2.length) {
 
 // BONUS 1.1
 
-let loremIpsum = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat pulvinar bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut varius magna vitae felis commodo imperdiet. Sed rhoncus, lorem et malesuada iaculis, metus ante dapibus sem, at commodo tortor magna eu arcu. Nam eu lorem nisl. Donec nisl massa, tempus vitae tortor eu, faucibus vehicula ante. In eleifend orci tortor, ut interdum tellus lacinia consectetur. Pellentesque at vehicula purus, molestie venenatis erat. Curabitur ex turpis, ultrices non lobortis ac, euismod quis enim.
+let loremIpsum1 = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat pulvinar bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut varius magna vitae felis commodo imperdiet. Sed rhoncus, lorem et malesuada iaculis, metus ante dapibus sem, at commodo tortor magna eu arcu. Nam eu lorem nisl. Donec nisl massa, tempus vitae tortor eu, faucibus vehicula ante. In eleifend orci tortor, ut interdum tellus lacinia consectetur. Pellentesque at vehicula purus, molestie venenatis erat. Curabitur ex turpis, ultrices non lobortis ac, euismod quis enim.
 
 Praesent faucibus vehicula ipsum sit amet rhoncus. Integer egestas in ligula sed suscipit. Praesent lobortis accumsan arcu ut posuere. Sed in enim efficitur, venenatis purus at, semper sapien. Morbi vel facilisis diam, at accumsan tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum placerat felis quis vulputate lobortis. Phasellus id fermentum sem, in blandit elit. Nullam et sapien quam.
 
@@ -93,9 +93,9 @@ Proin ultrices mauris nec orci lobortis rutrum. Integer nec sem nec leo viverra 
 
 let numberOfWords =0; 
 
-for (let i=0; i<loremIpsum.length;i++)  { 
-  if(loremIpsum[i]===" ")   { 
-    if(loremIpsum[i-1]===".")   { 
+for (let i=0; i<loremIpsum1.length;i++)  { 
+  if(loremIpsum1[i]===" ")   { 
+    if(loremIpsum1[i-1]===".")   { 
       continue
     }
     else   {  
@@ -103,11 +103,11 @@ for (let i=0; i<loremIpsum.length;i++)  {
     }
     
   }
-  else if (loremIpsum[i]===".")  { 
+  else if (loremIpsum1[i]===".")  { 
     numberOfWords+=1
   }
   
-  else if (loremIpsum[i]==="/n")  { 
+  else if (loremIpsum1[i]==="/n")  { 
     continue
   }
   else   { 
