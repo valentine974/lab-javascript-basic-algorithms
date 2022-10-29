@@ -34,7 +34,7 @@ console.log(inverseHacker2);
 
 
 if(hacker1.length >= hacker2.length) { 
- for (i=0; i<=hacker2.length-1;i++) { 
+ for (let i=0; i<=hacker2.length-1;i++) { 
    if(hacker1[i]>hacker2[i])  { 
    console.log(`The driver's name goes first.`)
      break
@@ -59,7 +59,7 @@ if(hacker1.length >= hacker2.length) {
 }
 
 else if(hacker1.length < hacker2.length) { 
- for (i=0; i<=hacker1.length-1;i++) { 
+ for (let i=0; i<=hacker1.length-1;i++) { 
    if(hacker1[i]>hacker2[i])  { 
    console.log(`The driver's name goes first.`)
      break
@@ -182,7 +182,7 @@ let j=unpunctuatedPhrase.length-1
 
 if(unpunctuatedPhrase.length%2===0){  
   
-  for (i=0; i<=(unpunctuatedPhrase.length/2);i++){ 
+  for (let i=0; i<=(unpunctuatedPhrase.length/2);i++){ 
     if(unpunctuatedPhrase[i]===unpunctuatedPhrase[j]){ 
       if (i===(unpunctuatedPhrase.length/2)) {
         console.log(`Of course it's a palindrom, well done!`)
@@ -203,7 +203,7 @@ if(unpunctuatedPhrase.length%2===0){
 }
 
 else {
-  for (i=0; i<=(unpunctuatedPhrase.length/2);i++){ 
+  for (let i=0; i<=(unpunctuatedPhrase.length/2);i++){ 
     if(unpunctuatedPhrase[i]===unpunctuatedPhrase[j]){ 
       if (i===((unpunctuatedPhrase.length-1)/2)) {
         console.log(`Of course it's a palindrom, well done!`)
